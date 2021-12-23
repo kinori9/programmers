@@ -3,7 +3,6 @@ def solution(numbers):
     arr = [-1] * 10
     for idx, val in enumerate(numbers):
         arr[val] = 1
-    print(arr)
     for idx, val in enumerate(arr):
         if arr[idx] == -1:
             answer += idx
